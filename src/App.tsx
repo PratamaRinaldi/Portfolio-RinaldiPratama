@@ -822,7 +822,7 @@ export default function App() {
   }
 
   return (
-    <div className="bg-w black-h-screen">
+    <div className="bg-white min-h-screen">
       {/* Decorative orbs */}
       <div
         className="orb w-96 h-96 bg-blue-300/30 top-[-8rem] right-[-4rem] fixed"
@@ -939,12 +939,14 @@ export default function App() {
               Logistic Trainer &amp; Improvement Specialist
             </div>
             <p
-              style={{ color: "#475569", lineHeight: 1.75, maxWidth: "28rem" }}
+              style={{ color: "#475569", lineHeight: 1.75, maxWidth: "40rem" }}
             >
-              Fullstack problem-solver bridging operations and digital
-              innovation. Experienced in building end-to-end digital solutions
-              for supply chain, warehouse management, and continuous improvement
-              at multinational companies.
+              Strong project management skills with a track record of planning, executing, and monitoring
+              improvement initiatives involving cross-functional teams and external suppliers. 
+              Proficient in data analysis for performance tracking, cost control, and continuous improvement.
+              Competent and responsible in the logistics operational process, skilled in collaborating with teams
+              from other departments to develop and implement digital solutions that improve operation
+              visibility, efficiency, and accuracy.
             </p>
             <div className="flex flex-wrap gap-3 pt-2">
               <button
@@ -1302,7 +1304,7 @@ export default function App() {
       {/* ── PROJECTS ── */}
       <section id="projects" className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
-          <SectionTitle label="Portfolio" title="Digital Projects" />
+          <SectionTitle label="Portfolio" title="Project History" />
           <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {PROJECTS.map((p, i) => (
               <div
@@ -1695,7 +1697,7 @@ export default function App() {
                 className="contact-card-dark"
                 onClick={() =>
                   window.open(
-                    "https://linkedin.com/in/rinaldi-pratama-ritonga",
+                    "https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BP9cpJpJ%2BTUKeUIVOY1dyQQ%3D%3D",
                     "_blank",
                   )
                 }
@@ -1768,13 +1770,11 @@ export default function App() {
                   id: "name",
                   label: "Your Name",
                   type: "text",
-                  placeholder: "John Doe",
                 },
                 {
                   id: "email",
                   label: "Your Email",
                   type: "email",
-                  placeholder: "john@example.com",
                 },
               ].map((field) => (
                 <div key={field.id} className="space-y-1.5">
@@ -1834,7 +1834,6 @@ export default function App() {
                 <textarea
                   required
                   rows={4}
-                  placeholder="Hello Rinaldi, I'd love to discuss..."
                   value={contactForm.message}
                   onChange={(e) =>
                     setContactForm((prev) => ({
