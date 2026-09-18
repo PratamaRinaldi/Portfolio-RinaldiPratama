@@ -1005,7 +1005,7 @@ export default function App() {
                 }}
               >
                 <img
-                  src="https://i.postimg.cc/d1vL2zDn/db0a944a-5ad2-49b2-b7e9-9d95ae29c82c.jpg"
+                  src="https://i.postimg.cc"
                   alt="Rinaldi Pratama Ritonga"
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />
