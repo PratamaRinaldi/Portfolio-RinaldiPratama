@@ -525,7 +525,7 @@ const SKILLS = {
 
 const EXPERIENCES = [
   {
-    company: "PT Schneider Electric Batam",
+    company: "PT Schneider Electric Manufacturing Batam",
     role: "Logistic Trainer & Improvement Logistic Area",
     period: "November 2025 – Present",
     current: true,
@@ -538,7 +538,7 @@ const EXPERIENCES = [
     ],
   },
   {
-    company: "PT EPSON BATAM",
+    company: "PT Epson Batam",
     role: "Project Improvement – Logistic Area",
     period: "June 2024 – August 2025",
     current: false,
@@ -578,7 +578,7 @@ const EXPERIENCES = [
 
 const PROJECTS = [
   {
-    name: "EDeploy Application",
+    name: "Upskilling Learning Application",
     type: "Paper Less",
     desc: "Upskilling learning application for all departments. Features attendance recording, post-test, and skill practice.",
     tags: ["Digital", "Training", "App Dev"],
@@ -661,12 +661,6 @@ const CERTS = [
     issuer: "Schneider Electric",
     date: "March 1, 2026",
     id: "SE-MOT-2026",
-  },
-  {
-    title: "Menjadi Pribadi Unggul",
-    issuer: "Ecogreen Oleochemicals",
-    date: "September 15, 2022",
-    id: "CERT/838/HR/XII/2022",
   },
 ]
 
@@ -822,7 +816,7 @@ export default function App() {
   }
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen text-black antialiased">
       {/* Decorative orbs */}
       <div
         className="orb w-96 h-96 bg-blue-300/30 top-[-8rem] right-[-4rem] fixed"
@@ -848,9 +842,9 @@ export default function App() {
               letterSpacing: "-0.02em",
             }}
           >
-            RPR<span style={{ color: "#60a5fa" }}>.</span>
+            PORTOFOLIO<span style={{ color: "#60a5fa" }}>.</span>
           </span>
-          <div className="desktop-nav flex items-center gap-1">
+          <div className="desktop-nav flex items-center gap-3">
             {NAV_LINKS.map((l) => (
               <button
                 key={l}
@@ -941,12 +935,14 @@ export default function App() {
             <p
               style={{ color: "#475569", lineHeight: 1.75, maxWidth: "40rem" }}
             >
-              Strong project management skills with a track record of planning, executing, and monitoring
-              improvement initiatives involving cross-functional teams and external suppliers. 
-              Proficient in data analysis for performance tracking, cost control, and continuous improvement.
-              Competent and responsible in the logistics operational process, skilled in collaborating with teams
-              from other departments to develop and implement digital solutions that improve operation
-              visibility, efficiency, and accuracy.
+              Strong project management skills with a track record of planning,
+              executing, and monitoring improvement initiatives involving
+              cross-functional teams and external suppliers. Proficient in data
+              analysis for performance tracking, cost control, and continuous
+              improvement. Competent and responsible in the logistics
+              operational process, skilled in collaborating with teams from
+              other departments to develop and implement digital solutions that
+              improve operation visibility, efficiency, and accuracy.
             </p>
             <div className="flex flex-wrap gap-3 pt-2">
               <button
@@ -973,7 +969,7 @@ export default function App() {
               {[
                 { label: "4+", sub: "Years Exp." },
                 { label: "6+", sub: "Projects" },
-                { label: "7+", sub: "Certifications" },
+                { label: "6+", sub: "Certifications" },
               ].map((s) => (
                 <div key={s.label} className="text-center">
                   <div
@@ -1126,7 +1122,7 @@ export default function App() {
                   {
                     Icon: IconBriefcase,
                     label: "University",
-                    val: "Univ. of Malikussaleh",
+                    val: "University of Malikussaleh",
                   },
                   { Icon: IconStar, label: "GPA", val: "3.55 / 4.00" },
                 ].map(({ Icon, label, val }) => (
@@ -1400,21 +1396,20 @@ export default function App() {
               {[
                 "SAP System",
                 "Power BI",
-                "Microsoft Excel",
+                "Microsoft Office",
                 "Data Analytics",
                 "Project Management",
                 "Kaizen",
-                "5S Methodology",
+                "Microsoft Visual Basic",
                 "Lean Process",
                 "Six Sigma",
-                "Supply Chain",
                 "Training & Development",
                 "Budget Control",
                 "Warehouse Operations",
                 "RFID Systems",
                 "Process Digitalization",
-                "KPI Reporting",
-                "QC Tools",
+                "Warehouse Management System",
+                "QC 7 Tools",
                 "Cross-functional Leadership",
               ].map((s) => (
                 <span key={s} className="skill-badge cursor-default">
