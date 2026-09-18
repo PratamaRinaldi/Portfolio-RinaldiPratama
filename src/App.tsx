@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import fotoProfil from './assets/foto-rinaldi.jpg'
+import berkasCV from './assets/cv.pdf';
 // ─── SVG Icon Components ────────────────────────────────────────────────────
 function IconMail({
   size = 22,
@@ -958,7 +959,7 @@ export default function App() {
                 <IconMail size={17} /> Get In Touch
               </button>
               <a
-                href="https://githubusercontent.com"
+                href={berkasCV}
                 download="CV_Rinaldi_Pratama.pdf"
                 className="btn-glass flex items-center gap-2"
               >
