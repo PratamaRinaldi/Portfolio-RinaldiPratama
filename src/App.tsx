@@ -958,7 +958,7 @@ export default function App() {
                 <IconMail size={17} /> Get In Touch
               </button>
               <a
-                href="./CV_Rinaldi_Pratama.pdf"
+                href="https://githubusercontent.com"
                 download="CV_Rinaldi_Pratama.pdf"
                 className="btn-glass flex items-center gap-2"
               >
