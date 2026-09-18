@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react"
-
+import fotoProfil from './assets/foto-rinaldi.jpg'
 // ─── SVG Icon Components ────────────────────────────────────────────────────
 function IconMail({
   size = 22,
@@ -1005,7 +1005,7 @@ export default function App() {
                 }}
               >
                 <img
-                  src="/Portfolio-RinaldiPratama/foto-rinaldi.jpg"
+                  src={fotoProfil}
                   alt="Rinaldi Pratama Ritonga"
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />
