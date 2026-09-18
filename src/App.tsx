@@ -958,8 +958,8 @@ export default function App() {
                 <IconMail size={17} /> Get In Touch
               </button>
               <a
-                href="/src/assets/cv.pdf"
-                download="Rinaldi_Pratama_Ritonga_CV.pdf"
+                href="./assets/cv.pdf"
+                download="CV_Rinaldi_Pratama.pdf"
                 className="btn-glass flex items-center gap-2"
               >
                 <IconDownload size={17} /> Download CV
